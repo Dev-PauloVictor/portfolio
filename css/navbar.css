@@ -1,0 +1,36 @@
+
+/*  navbar   inicio*/
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 999;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+     background: #111;
+     padding: 20px 0;
+}
+.navbar .max-width{
+    display: flex;
+ 
+    justify-content: right;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: #cf1767;
+}
+.navbar.sticky .menu li a:hover{
+    color: #fff;
+}
